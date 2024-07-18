@@ -1,0 +1,8 @@
+public class ReverseWord {
+    public static void main(String[] args) {
+        String word = "Hello";
+        String reversedWord = new StringBuilder(word).reverse().toString();
+        System.out.println("Original Word: " + word);
+        System.out.println("Reversed Word: " + reversedWord);
+    }
+}
