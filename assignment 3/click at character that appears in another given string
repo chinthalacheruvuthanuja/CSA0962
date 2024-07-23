@@ -1,0 +1,12 @@
+public class CharacterFinder {
+    public static void main(String[] args) {
+        String str1 = "hello";
+        String str2 = "world";
+        
+        for (char c : str1.toCharArray()) {
+            if (str2.contains(String.valueOf(c))) {
+                System.out.println("Character '" + c + "' appears in both strings.");
+            }
+        }
+    }
+}
