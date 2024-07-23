@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        String word = "example";
+        List<String> items = new ArrayList<>();
+        
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = i + 1; j <= word.length(); j++) {
+                items.add(word.substring(i, j));
+            }
+        }
+        
+        System.out.println(items);
+    }
+}
