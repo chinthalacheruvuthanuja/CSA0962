@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        String str1 = "Hello, World!";
+        String str2 = "Hello";
+
+        boolean startsWith = str1.startsWith(str2);
+
+        System.out.println("Does str1 start with str2? " + startsWith);
+    }
+}
