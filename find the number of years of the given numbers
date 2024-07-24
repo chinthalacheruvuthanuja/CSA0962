@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        int number = 365;
+        int daysInYear = 365;
+        
+        int years = number / daysInYear;
+        
+        System.out.println("Number of years: " + years);
+    }
+}
