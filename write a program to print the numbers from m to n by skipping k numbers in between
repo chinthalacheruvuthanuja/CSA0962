@@ -1,0 +1,11 @@
+public class SkipNumbers {
+    public static void main(String[] args) {
+        int m = 1;
+        int n = 20;
+        int k = 3;
+
+        for (int i = m; i <= n; i += k) {
+            System.out.print(i + " ");
+        }
+    }
+}
