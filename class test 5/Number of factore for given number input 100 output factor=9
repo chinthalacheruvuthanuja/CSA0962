@@ -1,0 +1,14 @@
+public class FactorCalculator {
+    public static void main(String[] args) {
+        int number = 100;
+        int factors = 0;
+
+        for (int i = 1; i <= number; ++i) {
+            if (number % i == 0) {
+                factors++;
+            }
+        }
+
+        System.out.println("Number of factors for " + number + " is: " + factors);
+    }
+}
